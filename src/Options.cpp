@@ -73,7 +73,7 @@ static char const usage[] = "\
 Usage: " APP_ID " [OPTIONS]\n\
 \n\
 Options:\n\
-  -a, --algo=ALGO           cryptonight (default) or cryptonight-lite\n\
+  -a, --algo=ALGO           cryptonight_alloy (default) or cryptonight-lite\n\
   -o, --url=URL             URL of mining server\n\
   -O, --userpass=U:P        username:password pair for mining server\n\
   -u, --user=USERNAME       username for mining server\n\
@@ -193,14 +193,14 @@ static struct option const api_options[] = {
 
 
 static const char *algoNames[] = {
-    "cryptonight",
+    "cryptonight_alloy",
     "cryptonight-lite",
     "cryptonight-heavy"
 };
 
 
 static const char *algoNamesShort[] = {
-    "cn",
+    "cn_alloy",
     "cn-lite",
     "cn-heavy"
 };
